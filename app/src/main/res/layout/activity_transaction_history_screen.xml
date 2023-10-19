@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Services.TransactionHistoryScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/layout_bgnew">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/back"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/baseline_arrow_back_24">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transaction History"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/white">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/wallet">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs 0"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/white">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#CCCCCC"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="DESCRIPTION"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Debit"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Credit"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Avail.Bal"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Signup Bonus\n|04-10-2023\n20:1414:40PM|\n742DE7D788D"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

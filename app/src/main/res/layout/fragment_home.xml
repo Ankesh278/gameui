@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.HomeFragment">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="15dp"
+      android:orientation="horizontal">
+
+      <EditText
+          android:layout_width="0dp"
+          android:layout_height="45dp"
+          android:layout_weight="1"
+          android:maxLength="1"
+          android:ems="1"
+          android:layout_margin="5dp"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:hint="Enter digit"
+          android:textColorHint="@color/gray"
+          android:textColor="@color/black"
+          android:textSize="16sp"
+          android:background="@drawable/et_bg"
+          android:inputType="number">
+
+      </EditText>
+
+      <EditText
+          android:layout_width="0dp"
+          android:layout_height="45dp"
+          android:hint="Enter Rs."
+          android:layout_weight="1"
+          android:layout_gravity="center"
+          android:gravity="center"
+          android:layout_margin="5dp"
+          android:textColorHint="@color/gray"
+          android:textColor="@color/black"
+          android:textSize="16sp"
+          android:background="@drawable/et_bg"
+          android:inputType="number">
+
+      </EditText>
+
+  </LinearLayout>
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="ADD BET"
+        android:id="@+id/btn_play"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/play_btn">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/tool_bg"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Single"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Amount"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Action"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white">
+
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="20"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_delete"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:background="#DFDEDE">
+
+    </View>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="20"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/black">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:src="@drawable/baseline_delete"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:background="#DFDEDE">
+
+    </View>
+
+    <TextView
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="PLAY NOW"
+        android:textSize="16sp"
+        android:layout_marginTop="150dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/play_btn">
+
+    </TextView>
+
+</LinearLayout>

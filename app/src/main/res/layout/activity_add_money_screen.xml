@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Services.AddMoneyScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/layout_bgnew">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:id="@+id/back"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/baseline_arrow_back_24">
+
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Money"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/white">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:src="@drawable/wallet">
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs 0"
+                android:textSize="16sp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/white">
+
+            </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER AMOUNT"
+        android:textSize="21sp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Enter Rs."
+        android:textColorHint="@color/gray"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/et_bg"
+        android:inputType="number">
+    </EditText>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER TXN NUMBER"
+        android:textSize="21sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_margin="5dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Txn ref No"
+        android:textColorHint="@color/gray"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:background="@drawable/et_bg"
+        android:inputType="number">
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SELECT TRANSFER MODE"
+        android:textSize="21sp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup_select"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/radioButtonAll"
+            android:text="Bank Account"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            app:buttonTint="@color/dark_blue"
+            android:checked="true"/>
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/radioButtonAdd"
+            android:text="GPay"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            app:buttonTint="@color/dark_blue"/>
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="PhonePe"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            app:buttonTint="@color/dark_blue"/>
+
+        <androidx.appcompat.widget.AppCompatRadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/radioButtonDelete"
+            android:text="UPI"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            app:buttonTint="@color/dark_blue"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="UPLOAD SCREENSHOT"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:background="@drawable/error_bg">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:text="REQUEST BALANCE"
+        android:id="@+id/btn_play"
+        android:textSize="16sp"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/play_btn">
+
+    </TextView>
+</LinearLayout>
